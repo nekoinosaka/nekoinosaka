@@ -1,40 +1,64 @@
+```json
 {
   "titleNameMap": {
     "educationList": "教育背景",
     "workExpList": "工作经历",
-    "projectList": "项目经历",
+    "projectList": "项目经验",
     "skillList": "个人技能",
     "awardList": "更多信息",
     "workList": "个人作品",
-    "aboutme": "自我介绍"
+    "aboutme": "个人评价"
+  },
+  "avatar": {
+    "src": "",
+    "hidden": true
   },
   "profile": {
     "name": "赵睿",
     "email": "infiniteray626@outlook.com",
     "mobile": "156********",
-    "workPlace": "四川省成都市",
-    "positionTitle": "前端开发工程师"
-  },
-  "aboutme": {
-    "aboutme_desc": "拥有3年大型企业中后台系统前端开发经验，精通Vue.js和React，主导组件化设计与性能优化，致力于提升用户体验，持续向全栈方向发展。"
+    "github": "",
+    "zhihu": "",
+    "workExpYear": "3 年"
   },
   "educationList": [
     {
-      "edu_time": ["2017", "2021"],
+      "edu_time": [
+        "2017",
+        "2021"
+      ],
       "school": "天津师范大学",
       "major": "软件工程",
       "academic_degree": "学士学位"
     }
   ],
+  "awardList": [
+    {
+      "award_info": "国家励志奖学金",
+      "award_time": "2018学年"
+    },
+    {
+      "award_info": "天津师范大学校二等奖学金",
+      "award_time": "2019学年"
+    }
+  ],
   "workExpList": [
     {
       "company_name": "江苏达科信息科技有限公司",
-      "work_time": ["2024", null],
+      "department_name": "",
+      "work_time": [
+        "2024",
+        null
+      ],
       "work_desc": "参与中国石油加油站管理系统3.0前端开发，负责用户模块与非油商品模块的交互设计与联调测试，并推动通用组件库建设，提升团队开发效率。"
     },
     {
       "company_name": "成都清科西南科技有限公司",
-      "work_time": ["2022", "2024"],
+      "department_name": "",
+      "work_time": [
+        "2022",
+        "2024"
+      ],
       "work_desc": "负责中国石油重庆数据平台中后台应用的前端开发，包括价格管理、权限管理和用户管理模块；参与数据驾驶舱和大屏可视化项目，解决大数据渲染性能问题；独立搭建财务共享-发票助手应用的脚手架与业务模块。"
     }
   ],
@@ -53,29 +77,20 @@
       "project_role": "前端开发",
       "project_time": "2024 - 至今",
       "project_desc": "负责用户模块和非油商品模块的开发与优化。",
-      "project_content": [
-        "交互逻辑设计与实现",
-        "模块联调测试",
-        "组件化设计"
-      ]
+      "project_content": "1. 交互逻辑设计与实现\n2. 模块联调测试\n3. 组件化设计"
     },
     {
       "project_name": "中国石油数据驾驶舱系列",
       "project_role": "前端开发",
       "project_time": "2022 - 2024",
       "project_desc": "参与多个业务线的数据可视化驾驶舱开发与性能优化。",
-      "project_content": [
-        "基于Vue+ECharts/G2的数据可视化实现",
-        "大屏适配与性能调优",
-        "组件复用与维护"
-      ]
+      "project_content": "1. 基于Vue+ECharts/G2的数据可视化实现\n2. 大屏适配与性能调优\n3. 组件复用与维护"
     }
   ],
-  "awardList": [
-    { "award_info": "国家励志奖学金", "award_time": "2018学年" },
-    { "award_info": "天津师范大学校二等奖学金", "award_time": "2019学年" }
-  ],
   "workList": [],
+  "aboutme": {
+    "aboutme_desc": "拥有3年大型企业中后台系统前端开发经验，精通Vue.js和React，主导组件化设计与性能优化，致力于提升用户体验，持续向全栈方向发展。"
+  },
   "theme": {
     "color": "#2f5785",
     "tagColor": "#8bc34a"
@@ -103,7 +118,10 @@
       },
       "educationList": [
         {
-          "edu_time": ["09/2017", "06/2021"],
+          "edu_time": [
+            "09/2017",
+            "06/2021"
+          ],
           "school": "Tianjin Normal University",
           "major": "Software Engineering",
           "academic_degree": "Bachelor of Engineering"
@@ -113,7 +131,10 @@
         {
           "company_name": "Jiangsu Dake Information Technology Co., Ltd.",
           "position": "Frontend Engineer",
-          "work_time": ["03/2024", null],
+          "work_time": [
+            "03/2024",
+            null
+          ],
           "work_desc": [
             "Contributed to PetroChina Gas Station Management System 3.0 user and non-oil product modules development and testing.",
             "Led the development of a common component library, improving team workflow."
@@ -122,7 +143,10 @@
         {
           "company_name": "Chengdu Qingke Southwest Technology Co., Ltd.",
           "position": "Frontend Developer",
-          "work_time": ["07/2022", "02/2024"],
+          "work_time": [
+            "07/2022",
+            "02/2024"
+          ],
           "work_desc": [
             "Developed PetroChina Chongqing Data Platform modules including pricing, permissions, and user management.",
             "Built multiple data visualization dashboards and optimized rendering for large datasets.",
@@ -131,9 +155,21 @@
         }
       ],
       "skillList": {
-        "Frontend": ["Vue.js", "React", "TypeScript", "HTML5/CSS3"],
-        "Visualization": ["ECharts", "G2"],
-        "Engineering": ["Git", "Webpack", "Docker"]
+        "Frontend": [
+          "Vue.js",
+          "React",
+          "TypeScript",
+          "HTML5/CSS3"
+        ],
+        "Visualization": [
+          "ECharts",
+          "G2"
+        ],
+        "Engineering": [
+          "Git",
+          "Webpack",
+          "Docker"
+        ]
       },
       "projectList": [
         {
@@ -157,8 +193,14 @@
         }
       ],
       "awardList": [
-        { "award_info": "National Inspirational Scholarship", "award_time": "2018 Academic Year" },
-        { "award_info": "University Second-class Scholarship", "award_time": "2019 Academic Year" }
+        {
+          "award": "National Inspirational Scholarship",
+          "time": "2018 Academic Year"
+        },
+        {
+          "award": "University Second-class Scholarship",
+          "time": "2019 Academic Year"
+        }
       ],
       "workList": [],
       "theme": {
@@ -168,3 +210,4 @@
     }
   }
 }
+```
