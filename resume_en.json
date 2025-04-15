@@ -1,0 +1,71 @@
+{
+  "titleNameMap": {
+    "educationList": "Education",
+    "workExpList": "Work Experience",
+    "projectList": "Projects",
+    "skillList": "Skills",
+    "awardList": "Additional Info",
+    "workList": "Portfolio",
+    "aboutme": "Summary"
+  },
+  "profile": {
+    "name": "Rui Zhao",
+    "email": "infiniteray626@outlook.com",
+    "mobile": "156********",
+    "github": "https://github.com/visiky",
+    "workPlace": "Chengdu, Sichuan",
+    "positionTitle": "Frontend Developer"
+  },
+  "aboutme": {
+    "aboutme_desc": "Frontend developer with 3 years of web development experience. Proficient in Vue.js and React stacks, with extensive experience in enterprise-level backend systems. Specialized in performance optimization and component design. Committed to enhancing user experience through technical innovation, with a goal to become a full-stack engineer."
+  },
+  "educationList": [
+    {
+      "edu_time": ["2017", "2021"],
+      "school": "Tianjin Normal University",
+      "major": "Software Engineering",
+      "academic_degree": "Bachelor's Degree"
+    }
+  ],
+  "workExpList": [
+    {
+      "company_name": "Jiangsu Dake Information Technology",
+      "work_time": ["2024", "Present"],
+      "work_desc": "Frontend development for Sinopec Gas Station Management System 3.0, including user module and non-fuel products module development, interaction logic design, and joint debugging."
+    },
+    {
+      "company_name": "Chengdu Qingke Southwest Technology",
+      "work_time": ["2022", "2024"],
+      "work_desc": "1. Developed Sinopec Chongqing Data Platform including price management, permission management, and user management modules\n2. Created multiple data dashboards using Vue with ECharts/G2 for visualization\n3. Developed large-screen displays for Hebei Amoeba and Heilongjiang production operations\n4. Built Financial Shared-Invoice Assistant application (including scaffold setup, dynamic routing, and business modules)"
+    }
+  ],
+  "skillList": [
+    {"skill_name": "HTML/CSS/JavaScript/TypeScript", "skill_level": 90},
+    {"skill_name": "Vue Ecosystem", "skill_level": 88},
+    {"skill_name": "React Stack", "skill_level": 85},
+    {"skill_name": "ElementPlus/AntDesign", "skill_level": 87},
+    {"skill_name": "ECharts/G2 Visualization", "skill_level": 86},
+    {"skill_name": "Git Workflow", "skill_level": 85},
+    {"skill_name": "Frontend Performance Optimization", "skill_level": 84}
+  ],
+  "projectList": [
+    {
+      "project_name": "Sinopec Gas Station Management System 3.0",
+      "project_role": "Frontend Developer",
+      "project_time": "2024 - Present",
+      "project_desc": "Upgraded gas station management system",
+      "project_content": "1. User and non-fuel products module development\n2. Interaction logic implementation\n3. Performance optimization"
+    },
+    {
+      "project_name": "Sinopec Data Dashboard Series",
+      "project_role": "Frontend Developer",
+      "project_time": "2022 - 2024",
+      "project_desc": "Data visualization dashboards for multiple business lines",
+      "project_content": "1. Developed fuel sales/gas station/inventory dashboards\n2. Implemented data visualization using Vue+ECharts/G2\n3. Large-screen adaptation and performance tuning"
+    }
+  ],
+  "theme": {
+    "color": "#2f5785",
+    "tagColor": "#8bc34a"
+  }
+}
