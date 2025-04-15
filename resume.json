@@ -68,7 +68,7 @@
     "color": "#2f5785",
     "tagColor": "#8bc34a"
   },
-  "locale": {
+  "locales": {
     "en-US": {
       "titleNameMap": {
         "educationList": "Education",
