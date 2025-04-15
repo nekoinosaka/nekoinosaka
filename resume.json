@@ -72,8 +72,8 @@
     }
   ],
   "awardList": [
-    { "award": "国家励志奖学金", "time": "2018学年" },
-    { "award": "天津师范大学校二等奖学金", "time": "2019学年" }
+    { "award_info": "国家励志奖学金", "award_time": "2018学年" },
+    { "award_info": "天津师范大学校二等奖学金", "award_time": "2019学年" }
   ],
   "workList": [],
   "theme": {
@@ -157,8 +157,8 @@
         }
       ],
       "awardList": [
-        { "award": "National Inspirational Scholarship", "time": "2018 Academic Year" },
-        { "award": "University Second-class Scholarship", "time": "2019 Academic Year" }
+        { "award_info": "National Inspirational Scholarship", "award_time": "2018 Academic Year" },
+        { "award_info": "University Second-class Scholarship", "award_time": "2019 Academic Year" }
       ],
       "workList": [],
       "theme": {
