@@ -12,12 +12,11 @@
     "name": "赵睿",
     "email": "infiniteray626@outlook.com",
     "mobile": "156********",
-    "github": "https://github.com/visiky",
     "workPlace": "四川省成都市",
     "positionTitle": "前端开发工程师"
   },
   "aboutme": {
-    "aboutme_desc": "前端开发工程师，3年Web开发经验，熟练掌握Vue.js、React技术栈，参与过多个企业级中后台系统开发，擅长性能优化与组件化设计。致力于通过技术创新提升用户体验，目标成为全栈工程师。"
+    "aboutme_desc": "拥有3年大型企业中后台系统前端开发经验，精通Vue.js和React，主导组件化设计与性能优化，致力于提升用户体验，持续向全栈方向发展。"
   },
   "educationList": [
     {
@@ -31,16 +30,16 @@
     {
       "company_name": "江苏达科信息科技有限公司",
       "work_time": ["2024", null],
-      "work_desc": "中国石油加油站管理系统3.0版本的前端开发，涉及用户模块、非油商品模块。包括交互逻辑设计开发和联调测试相关模块。"
+      "work_desc": "参与中国石油加油站管理系统3.0前端开发，负责用户模块与非油商品模块的交互设计与联调测试，并推动通用组件库建设，提升团队开发效率。"
     },
     {
       "company_name": "成都清科西南科技有限公司",
       "work_time": ["2022", "2024"],
-      "work_desc": "1. 中国石油重庆数据平台中后台应用前端开发，包括价格管理、权限管理、用户管理等模块\n2. 使用Vue配合ECharts以及G2等框架开发多个数据驾驶舱，完成数据可视化展示\n3. 河北阿米巴数据大屏开发、黑龙江生产运营指挥大屏开发\n4. 财务共享-发票助手应用前端页面开发（包括项目脚手架构建、动态路由模块开发以及业务功能模块实现）"
+      "work_desc": "负责中国石油重庆数据平台中后台应用的前端开发，包括价格管理、权限管理和用户管理模块；参与数据驾驶舱和大屏可视化项目，解决大数据渲染性能问题；独立搭建财务共享-发票助手应用的脚手架与业务模块。"
     }
   ],
   "skillList": [
-    { "skill_name": "HTML/CSS/JavaScript/TypeScript", "skill_level": 90 },
+    { "skill_name": "HTML5/CSS3/JavaScript/TypeScript", "skill_level": 90 },
     { "skill_name": "Vue框架及生态", "skill_level": 88 },
     { "skill_name": "React技术栈", "skill_level": 85 },
     { "skill_name": "ElementPlus/AntDesign", "skill_level": 87 },
@@ -53,17 +52,30 @@
       "project_name": "中国石油加油站管理系统3.0",
       "project_role": "前端开发",
       "project_time": "2024 - 至今",
-      "project_desc": "加油站管理系统升级版本，负责用户模块和非油商品模块开发",
-      "project_content": "1. 交互逻辑设计与实现\n2. 模块联调测试\n3. 性能优化"
+      "project_desc": "负责用户模块和非油商品模块的开发与优化。",
+      "project_content": [
+        "交互逻辑设计与实现",
+        "模块联调测试",
+        "组件化设计"
+      ]
     },
     {
       "project_name": "中国石油数据驾驶舱系列",
       "project_role": "前端开发",
       "project_time": "2022 - 2024",
-      "project_desc": "多个业务线的数据可视化驾驶舱开发",
-      "project_content": "1. 纯枪销售/加油站/非油指标/油库仓储/资源调进等驾驶舱开发\n2. 基于Vue+ECharts/G2的数据可视化实现\n3. 大屏适配与性能优化"
+      "project_desc": "参与多个业务线的数据可视化驾驶舱开发与性能优化。",
+      "project_content": [
+        "基于Vue+ECharts/G2的数据可视化实现",
+        "大屏适配与性能调优",
+        "组件复用与维护"
+      ]
     }
   ],
+  "awardList": [
+    { "award": "国家励志奖学金", "time": "2018学年" },
+    { "award": "天津师范大学校二等奖学金", "time": "2019学年" }
+  ],
+  "workList": [],
   "theme": {
     "color": "#2f5785",
     "tagColor": "#8bc34a"
@@ -82,13 +94,12 @@
       "profile": {
         "name": "Rui Zhao",
         "email": "infiniteray626@outlook.com",
-        "mobile": "(+86) 156-****-****",
-        "github": "https://github.com/visiky",
+        "mobile": "(+86) 133-5025-8366",
         "workPlace": "Chengdu, Sichuan, China",
-        "positionTitle": "Frontend Engineer | Data Visualization Specialist"
+        "positionTitle": "Frontend Engineer"
       },
       "aboutme": {
-        "aboutme_desc": "Frontend engineer with 3+ years of experience in enterprise system development. Specialized in data visualization and performance optimization. Developed 10+ large-scale dashboards handling over 1M data points. Passionate about building intuitive interfaces through technical innovation."
+        "aboutme_desc": "Frontend engineer with 3 years of experience in enterprise systems. Proficient in Vue.js and React, specializing in component architecture and performance optimization. Passionate about enhancing user experience and progressing towards full-stack development."
       },
       "educationList": [
         {
@@ -102,11 +113,10 @@
         {
           "company_name": "Jiangsu Dake Information Technology Co., Ltd.",
           "position": "Frontend Engineer",
-          "work_time": ["03/2024", "Present"],
+          "work_time": ["03/2024", null],
           "work_desc": [
-            "Lead developer for PetroChina Gas Station Management System 3.0",
-            "Implemented dynamic form engine reducing configuration time by 40%",
-            "Optimized Vue application performance achieving 1.2s average FMP"
+            "Contributed to PetroChina Gas Station Management System 3.0 user and non-oil product modules development and testing.",
+            "Led the development of a common component library, improving team workflow."
           ]
         },
         {
@@ -114,35 +124,43 @@
           "position": "Frontend Developer",
           "work_time": ["07/2022", "02/2024"],
           "work_desc": [
-            "Developed PetroChina Chongqing data platform using Vue3 + TypeScript",
-            "Created 5+ data visualization dashboards with ECharts/G2",
-            "Built reusable chart components library improving team efficiency by 30%"
+            "Developed PetroChina Chongqing Data Platform modules including pricing, permissions, and user management.",
+            "Built multiple data visualization dashboards and optimized rendering for large datasets.",
+            "Created front-end scaffolding and business modules for the Invoice Assistant in the financial sharing system."
           ]
         }
       ],
       "skillList": {
-        "Frontend": ["Vue 3/React 18", "TypeScript", "Pinia/Redux"],
-        "Visualization": ["ECharts", "G2", "WebGL/Three.js"],
-        "Engineering": ["Webpack", "Vite", "Git CI/CD"]
+        "Frontend": ["Vue.js", "React", "TypeScript", "HTML5/CSS3"],
+        "Visualization": ["ECharts", "G2"],
+        "Engineering": ["Git", "Webpack", "Docker"]
       },
       "projectList": [
         {
-          "project_name": "PetroChina Digital Dashboard Ecosystem",
-          "project_role": "Lead Frontend Developer",
+          "project_name": "PetroChina Gas Station Management System 3.0",
+          "project_role": "Frontend Developer",
+          "project_time": "2024 - Present",
+          "highlights": [
+            "Developed user and non-oil product modules",
+            "Improved component reuse and development workflow"
+          ]
+        },
+        {
+          "project_name": "PetroChina Data Dashboard Suite",
+          "project_role": "Frontend Developer",
           "project_time": "2022 - 2024",
           "highlights": [
-            "Developed unified visualization platform serving 5+ business units",
-            "Implemented WebGL-based rendering for 500,000+ data points visualization",
-            "Reduced dashboard loading time from 8s to 2.3s through code splitting"
+            "Built unified visualization dashboards for multiple business units",
+            "Optimized rendering for large datasets",
+            "Maintained reusable components"
           ]
         }
       ],
       "awardList": [
-        {
-          "award": "Excellent Employee Award (Q3 2023)",
-          "issuer": "Chengdu Qingke"
-        }
+        { "award": "National Inspirational Scholarship", "time": "2018 Academic Year" },
+        { "award": "University Second-class Scholarship", "time": "2019 Academic Year" }
       ],
+      "workList": [],
       "theme": {
         "color": "#2f5785",
         "tagColor": "#8bc34a"
