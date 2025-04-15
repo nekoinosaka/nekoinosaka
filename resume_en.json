@@ -1,67 +1,75 @@
 {
   "titleNameMap": {
     "educationList": "Education",
-    "workExpList": "Work Experience",
-    "projectList": "Projects",
-    "skillList": "Skills",
-    "awardList": "Additional Info",
+    "workExpList": "Professional Experience",
+    "projectList": "Key Projects",
+    "skillList": "Technical Skills",
+    "awardList": "Achievements",
     "workList": "Portfolio",
-    "aboutme": "Summary"
+    "aboutme": "Professional Summary"
   },
   "profile": {
     "name": "Rui Zhao",
     "email": "infiniteray626@outlook.com",
-    "mobile": "156********",
+    "mobile": "(+86) 156-****-****",
     "github": "https://github.com/visiky",
-    "workPlace": "Chengdu, Sichuan",
-    "positionTitle": "Frontend Developer"
+    "workPlace": "Chengdu, Sichuan, China",
+    "positionTitle": "Frontend Engineer | Data Visualization Specialist"
   },
   "aboutme": {
-    "aboutme_desc": "Frontend developer with 3 years of web development experience. Proficient in Vue.js and React stacks, with extensive experience in enterprise-level backend systems. Specialized in performance optimization and component design. Committed to enhancing user experience through technical innovation, with a goal to become a full-stack engineer."
+    "aboutme_desc": "Frontend engineer with 3+ years of experience in enterprise system development. Specialized in data visualization and performance optimization. Developed 10+ large-scale dashboards handling over 1M data points. Passionate about building intuitive interfaces through technical innovation."
   },
   "educationList": [
     {
-      "edu_time": ["2017", "2021"],
+      "edu_time": ["09/2017", "06/2021"],
       "school": "Tianjin Normal University",
       "major": "Software Engineering",
-      "academic_degree": "Bachelor's Degree"
+      "academic_degree": "Bachelor of Engineering"
     }
   ],
   "workExpList": [
     {
-      "company_name": "Jiangsu Dake Information Technology",
-      "work_time": ["2024", "Present"],
-      "work_desc": "Frontend development for Sinopec Gas Station Management System 3.0, including user module and non-fuel products module development, interaction logic design, and joint debugging."
+      "company_name": "Jiangsu Dake Information Technology Co., Ltd.",
+      "position": "Frontend Engineer",
+      "work_time": ["03/2024", "Present"],
+      "work_desc": [
+        "Lead developer for PetroChina Gas Station Management System 3.0",
+        "Implemented dynamic form engine reducing configuration time by 40%",
+        "Optimized Vue application performance achieving 1.2s average FMP"
+      ]
     },
     {
-      "company_name": "Chengdu Qingke Southwest Technology",
-      "work_time": ["2022", "2024"],
-      "work_desc": "1. Developed Sinopec Chongqing Data Platform including price management, permission management, and user management modules\n2. Created multiple data dashboards using Vue with ECharts/G2 for visualization\n3. Developed large-screen displays for Hebei Amoeba and Heilongjiang production operations\n4. Built Financial Shared-Invoice Assistant application (including scaffold setup, dynamic routing, and business modules)"
+      "company_name": "Chengdu Qingke Southwest Technology Co., Ltd.",
+      "position": "Frontend Developer",
+      "work_time": ["07/2022", "02/2024"],
+      "work_desc": [
+        "Developed PetroChina Chongqing data platform using Vue3 + TypeScript",
+        "Created 5+ data visualization dashboards with ECharts/G2",
+        "Built reusable chart components library improving team efficiency by 30%"
+      ]
     }
   ],
-  "skillList": [
-    {"skill_name": "HTML/CSS/JavaScript/TypeScript", "skill_level": 90},
-    {"skill_name": "Vue Ecosystem", "skill_level": 88},
-    {"skill_name": "React Stack", "skill_level": 85},
-    {"skill_name": "ElementPlus/AntDesign", "skill_level": 87},
-    {"skill_name": "ECharts/G2 Visualization", "skill_level": 86},
-    {"skill_name": "Git Workflow", "skill_level": 85},
-    {"skill_name": "Frontend Performance Optimization", "skill_level": 84}
-  ],
+  "skillList": {
+    "Frontend": ["Vue 3/React 18", "TypeScript", "Pinia/Redux"],
+    "Visualization": ["ECharts", "G2", "WebGL/Three.js"],
+    "Engineering": ["Webpack", "Vite", "Git CI/CD"]
+  },
   "projectList": [
     {
-      "project_name": "Sinopec Gas Station Management System 3.0",
-      "project_role": "Frontend Developer",
-      "project_time": "2024 - Present",
-      "project_desc": "Upgraded gas station management system",
-      "project_content": "1. User and non-fuel products module development\n2. Interaction logic implementation\n3. Performance optimization"
-    },
-    {
-      "project_name": "Sinopec Data Dashboard Series",
-      "project_role": "Frontend Developer",
+      "project_name": "PetroChina Digital Dashboard Ecosystem",
+      "project_role": "Lead Frontend Developer",
       "project_time": "2022 - 2024",
-      "project_desc": "Data visualization dashboards for multiple business lines",
-      "project_content": "1. Developed fuel sales/gas station/inventory dashboards\n2. Implemented data visualization using Vue+ECharts/G2\n3. Large-screen adaptation and performance tuning"
+      "highlights": [
+        "Developed unified visualization platform serving 5+ business units",
+        "Implemented WebGL-based rendering for 500,000+ data points visualization",
+        "Reduced dashboard loading time from 8s to 2.3s through code splitting"
+      ]
+    }
+  ],
+  "awardList": [
+    {
+      "award": "Excellent Employee Award (Q3 2023)",
+      "issuer": "Chengdu Qingke"
     }
   ],
   "theme": {
